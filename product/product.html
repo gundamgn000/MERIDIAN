@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MERIDIAN 機械腕錶。以精密機芯與純粹比例，記錄值得停留的時間。">
+  <title>所有腕錶 — MERIDIAN</title>
+  <link rel="icon" href="../assets/logo/mark.svg">
+  <link rel="stylesheet" href="../css/base.css?v=6">
+  <link rel="stylesheet" href="../css/product.css?v=6">
+  <script src="../assets/js/theme-switcher.js?v=6"></script>
+  <script defer src="../assets/js/core.js?v=6"></script>
+</head>
+<body data-page="products" data-root="../">
+  <a class="skip" href="#main">跳至主要內容</a>
+  <div id="header"></div>
+  <main id="main">
+    <section class="catalog-intro section">
+      <p class="eyebrow">THE TIMEPIECES / 腕錶目錄</p>
+      <div>
+        <h1>A personal<br><em>measure of time.</em></h1>
+        <p>從純粹的正裝比例，到隨行的自由步調。<br>找到與你合拍的那一只。</p>
+      </div>
+    </section>
+    <section class="catalog section">
+      <div class="filter-bar">
+        <div class="filter-buttons" role="group" aria-label="依系列篩選">
+          <button data-filter="all" class="active" aria-pressed="true">所有腕錶</button>
+          <button data-filter="ORIGIN" aria-pressed="false">ORIGIN</button>
+          <button data-filter="FORM" aria-pressed="false">FORM</button>
+          <button data-filter="FIELD" aria-pressed="false">FIELD</button>
+        </div>
+        <span class="result-count" aria-live="polite"></span>
+      </div>
+      <div class="filter-summary" id="filter-summary"></div>
+      <div class="product-grid" data-products="all"></div>
+    </section>
+  </main>
+  <div id="footer"></div>
+  <div id="overlays"></div>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
